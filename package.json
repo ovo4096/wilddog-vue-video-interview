@@ -1,0 +1,23 @@
+{
+  "name": "wilddog-vue-video-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovo4096/wilddog-vue-video-interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovo4096/wilddog-vue-video-interview/issues"
+  },
+  "homepage": "https://github.com/ovo4096/wilddog-vue-video-interview#readme",
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
+}
