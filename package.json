@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack "
+    "build": "webpack --config ./build/webpack.js",
+    "dev": "webpack-dev-server --open --config ./build/webpack.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,13 @@
   },
   "homepage": "https://github.com/ovo4096/wilddog-vue-video-interview#readme",
   "devDependencies": {
-    "webpack": "^3.8.1"
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "vue-loader": "^13.5.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "vue": "^2.5.8"
   }
 }
